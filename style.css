@@ -9,7 +9,7 @@ html, body {
 
 .calculator-container {
   max-width: 500px;
-  margin: 0 auto 40px auto; /* No top margin, 40px bottom */
+  margin: 0 auto 40px auto;
   padding: 20px;
   border-radius: 16px;
   background-color: white;
@@ -20,15 +20,6 @@ html, body {
 .calculator-container > *:first-child {
   margin-top: 0;
   padding-top: 0;
-}
-
-/* Optional title styling (if you keep the GB heading visible) */
-h1 {
-  text-align: center;
-  color: #192543;
-  margin-bottom: 20px;
-  font-size: 22px;
-  font-weight: bold;
 }
 
 label {
