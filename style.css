@@ -1,0 +1,93 @@
+/* General styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #192543;
+  background-color: white;
+}
+
+.calculator-container {
+  max-width: 500px;
+  margin: 0 auto 40px auto; /* No top margin, 40px bottom */
+  padding: 20px;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: none;
+}
+
+/* Remove any top margin/padding from the first child inside the container */
+.calculator-container > *:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Optional title styling (if you keep the GB heading visible) */
+h1 {
+  text-align: center;
+  color: #192543;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 2px solid #7fc28f;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Button styles */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+button {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+#calculateBtn {
+  background-color: #07b0a0;
+  color: white;
+}
+
+#calculateBtn:hover {
+  background-color: #069687;
+}
+
+#resetBtn {
+  background-color: #7fc28f;
+  color: white;
+}
+
+#resetBtn:hover {
+  background-color: #6aaa7b;
+}
+
+#result {
+  margin-top: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #192543;
+  font-size: 18px;
+}
