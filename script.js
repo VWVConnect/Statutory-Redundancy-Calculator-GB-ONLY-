@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let pay = parseFloat(payInput.value);
 
     // GOV.UK statutory cap (Great Britain)
-    const maxWeeklyPay = 719;
+    const maxWeeklyPay = 751;
     const maxYears = 20;
 
     if (isNaN(age) || isNaN(years) || isNaN(pay)) {
